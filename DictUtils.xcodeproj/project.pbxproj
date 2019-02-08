@@ -7,28 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5342AD0E220E1B3400815BF5 /* DictUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5342AD04220E1B3400815BF5 /* DictUtils.framework */; };
-		5342AD13220E1B3400815BF5 /* DictUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AD12220E1B3400815BF5 /* DictUtilsTests.swift */; };
 		5342AD15220E1B3400815BF5 /* DictUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 5342AD07220E1B3400815BF5 /* DictUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5342AD75220E275700815BF5 /* DictUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5342AD2A220E24A100815BF5 /* DictUtils.framework */; };
+		5342AD81220E27B300815BF5 /* DictUtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AD7F220E27B300815BF5 /* DictUtilsTests.swift */; };
+		5342AD86220E2AF200815BF5 /* DictUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AD21220E245300815BF5 /* DictUtils.swift */; };
+		5342AD87220E2AF300815BF5 /* DictUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AD21220E245300815BF5 /* DictUtils.swift */; };
+		5342AD88220E2AF300815BF5 /* DictUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AD21220E245300815BF5 /* DictUtils.swift */; };
+		5342AD89220E2AF300815BF5 /* DictUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5342AD21220E245300815BF5 /* DictUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5342AD0F220E1B3400815BF5 /* PBXContainerItemProxy */ = {
+		5342AD76220E275700815BF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5342ACFB220E1B3400815BF5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5342AD03220E1B3400815BF5;
-			remoteInfo = DictUtils;
+			remoteGlobalIDString = 5342AD29220E24A100815BF5;
+			remoteInfo = "DictUtlis-Mac";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5342AD04220E1B3400815BF5 /* DictUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5342AD07220E1B3400815BF5 /* DictUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DictUtils.h; sourceTree = "<group>"; };
-		5342AD08220E1B3400815BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5342AD0D220E1B3400815BF5 /* DictUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5342AD12220E1B3400815BF5 /* DictUtilsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictUtilsTests.swift; sourceTree = "<group>"; };
-		5342AD14220E1B3400815BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5342AD21220E245300815BF5 /* DictUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictUtils.swift; sourceTree = "<group>"; };
+		5342AD23220E246900815BF5 /* Info-iOS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-iOS.plist"; sourceTree = "<group>"; };
+		5342AD2A220E24A100815BF5 /* DictUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5342AD46220E24C700815BF5 /* DictUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5342AD53220E24D300815BF5 /* DictUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DictUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5342AD70220E275700815BF5 /* DictUtilsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictUtilsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5342AD7B220E277500815BF5 /* Info-TV.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-TV.plist"; sourceTree = "<group>"; };
+		5342AD7C220E277500815BF5 /* Info-Watch.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Watch.plist"; sourceTree = "<group>"; };
+		5342AD7D220E277500815BF5 /* Info-Mac.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Mac.plist"; sourceTree = "<group>"; };
+		5342AD7F220E27B300815BF5 /* DictUtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictUtilsTests.swift; sourceTree = "<group>"; };
+		5342AD80220E27B300815BF5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,11 +50,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5342AD0A220E1B3400815BF5 /* Frameworks */ = {
+		5342AD27220E24A100815BF5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5342AD0E220E1B3400815BF5 /* DictUtils.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD43220E24C700815BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD50220E24D300815BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD6D220E275700815BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5342AD75220E275700815BF5 /* DictUtils.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				5342AD06220E1B3400815BF5 /* DictUtils */,
-				5342AD11220E1B3400815BF5 /* DictUtilsTests */,
+				5342AD7E220E27B300815BF5 /* DictUtilsTests */,
 				5342AD05220E1B3400815BF5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				5342AD04220E1B3400815BF5 /* DictUtils.framework */,
-				5342AD0D220E1B3400815BF5 /* DictUtilsTests.xctest */,
+				5342AD2A220E24A100815BF5 /* DictUtils.framework */,
+				5342AD46220E24C700815BF5 /* DictUtils.framework */,
+				5342AD53220E24D300815BF5 /* DictUtils.framework */,
+				5342AD70220E275700815BF5 /* DictUtilsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,17 +106,29 @@
 		5342AD06220E1B3400815BF5 /* DictUtils */ = {
 			isa = PBXGroup;
 			children = (
+				5342AD20220E245300815BF5 /* Source */,
 				5342AD07220E1B3400815BF5 /* DictUtils.h */,
-				5342AD08220E1B3400815BF5 /* Info.plist */,
+				5342AD23220E246900815BF5 /* Info-iOS.plist */,
+				5342AD7D220E277500815BF5 /* Info-Mac.plist */,
+				5342AD7B220E277500815BF5 /* Info-TV.plist */,
+				5342AD7C220E277500815BF5 /* Info-Watch.plist */,
 			);
 			path = DictUtils;
 			sourceTree = "<group>";
 		};
-		5342AD11220E1B3400815BF5 /* DictUtilsTests */ = {
+		5342AD20220E245300815BF5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				5342AD12220E1B3400815BF5 /* DictUtilsTests.swift */,
-				5342AD14220E1B3400815BF5 /* Info.plist */,
+				5342AD21220E245300815BF5 /* DictUtils.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5342AD7E220E27B300815BF5 /* DictUtilsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5342AD7F220E27B300815BF5 /* DictUtilsTests.swift */,
+				5342AD80220E27B300815BF5 /* Info.plist */,
 			);
 			path = DictUtilsTests;
 			sourceTree = "<group>";
@@ -97,12 +144,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5342AD25220E24A100815BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD41220E24C700815BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD4E220E24D300815BF5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5342AD03220E1B3400815BF5 /* DictUtils */ = {
+		5342AD03220E1B3400815BF5 /* DictUtils-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5342AD18220E1B3400815BF5 /* Build configuration list for PBXNativeTarget "DictUtils" */;
+			buildConfigurationList = 5342AD18220E1B3400815BF5 /* Build configuration list for PBXNativeTarget "DictUtils-iOS" */;
 			buildPhases = (
 				5342ACFF220E1B3400815BF5 /* Headers */,
 				5342AD00220E1B3400815BF5 /* Sources */,
@@ -113,27 +181,81 @@
 			);
 			dependencies = (
 			);
-			name = DictUtils;
+			name = "DictUtils-iOS";
 			productName = DictUtils;
 			productReference = 5342AD04220E1B3400815BF5 /* DictUtils.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5342AD0C220E1B3400815BF5 /* DictUtilsTests */ = {
+		5342AD29220E24A100815BF5 /* DictUtlis-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5342AD1B220E1B3400815BF5 /* Build configuration list for PBXNativeTarget "DictUtilsTests" */;
+			buildConfigurationList = 5342AD3B220E24A100815BF5 /* Build configuration list for PBXNativeTarget "DictUtlis-Mac" */;
 			buildPhases = (
-				5342AD09220E1B3400815BF5 /* Sources */,
-				5342AD0A220E1B3400815BF5 /* Frameworks */,
-				5342AD0B220E1B3400815BF5 /* Resources */,
+				5342AD25220E24A100815BF5 /* Headers */,
+				5342AD26220E24A100815BF5 /* Sources */,
+				5342AD27220E24A100815BF5 /* Frameworks */,
+				5342AD28220E24A100815BF5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5342AD10220E1B3400815BF5 /* PBXTargetDependency */,
+			);
+			name = "DictUtlis-Mac";
+			productName = "DictUtlis-Mac";
+			productReference = 5342AD2A220E24A100815BF5 /* DictUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5342AD45220E24C700815BF5 /* DictUtils-TV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5342AD4B220E24C700815BF5 /* Build configuration list for PBXNativeTarget "DictUtils-TV" */;
+			buildPhases = (
+				5342AD41220E24C700815BF5 /* Headers */,
+				5342AD42220E24C700815BF5 /* Sources */,
+				5342AD43220E24C700815BF5 /* Frameworks */,
+				5342AD44220E24C700815BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DictUtils-TV";
+			productName = "DictUtils-TV";
+			productReference = 5342AD46220E24C700815BF5 /* DictUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5342AD52220E24D300815BF5 /* DictUtils-Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5342AD58220E24D300815BF5 /* Build configuration list for PBXNativeTarget "DictUtils-Watch" */;
+			buildPhases = (
+				5342AD4E220E24D300815BF5 /* Headers */,
+				5342AD4F220E24D300815BF5 /* Sources */,
+				5342AD50220E24D300815BF5 /* Frameworks */,
+				5342AD51220E24D300815BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DictUtils-Watch";
+			productName = "DictUtils-Watch";
+			productReference = 5342AD53220E24D300815BF5 /* DictUtils.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5342AD6F220E275700815BF5 /* DictUtilsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5342AD78220E275700815BF5 /* Build configuration list for PBXNativeTarget "DictUtilsTests" */;
+			buildPhases = (
+				5342AD6C220E275700815BF5 /* Sources */,
+				5342AD6D220E275700815BF5 /* Frameworks */,
+				5342AD6E220E275700815BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5342AD77220E275700815BF5 /* PBXTargetDependency */,
 			);
 			name = DictUtilsTests;
 			productName = DictUtilsTests;
-			productReference = 5342AD0D220E1B3400815BF5 /* DictUtilsTests.xctest */;
+			productReference = 5342AD70220E275700815BF5 /* DictUtilsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -148,8 +270,18 @@
 				TargetAttributes = {
 					5342AD03220E1B3400815BF5 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
-					5342AD0C220E1B3400815BF5 = {
+					5342AD29220E24A100815BF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5342AD45220E24C700815BF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5342AD52220E24D300815BF5 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5342AD6F220E275700815BF5 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -166,8 +298,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5342AD03220E1B3400815BF5 /* DictUtils */,
-				5342AD0C220E1B3400815BF5 /* DictUtilsTests */,
+				5342AD03220E1B3400815BF5 /* DictUtils-iOS */,
+				5342AD29220E24A100815BF5 /* DictUtlis-Mac */,
+				5342AD45220E24C700815BF5 /* DictUtils-TV */,
+				5342AD52220E24D300815BF5 /* DictUtils-Watch */,
+				5342AD6F220E275700815BF5 /* DictUtilsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -180,7 +315,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5342AD0B220E1B3400815BF5 /* Resources */ = {
+		5342AD28220E24A100815BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD44220E24C700815BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD51220E24D300815BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD6E220E275700815BF5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,24 +350,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5342AD86220E2AF200815BF5 /* DictUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5342AD09220E1B3400815BF5 /* Sources */ = {
+		5342AD26220E24A100815BF5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5342AD13220E1B3400815BF5 /* DictUtilsTests.swift in Sources */,
+				5342AD87220E2AF300815BF5 /* DictUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD42220E24C700815BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5342AD88220E2AF300815BF5 /* DictUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD4F220E24D300815BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5342AD89220E2AF300815BF5 /* DictUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5342AD6C220E275700815BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5342AD81220E27B300815BF5 /* DictUtilsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5342AD10220E1B3400815BF5 /* PBXTargetDependency */ = {
+		5342AD77220E275700815BF5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5342AD03220E1B3400815BF5 /* DictUtils */;
-			targetProxy = 5342AD0F220E1B3400815BF5 /* PBXContainerItemProxy */;
+			target = 5342AD29220E24A100815BF5 /* DictUtlis-Mac */;
+			targetProxy = 5342AD76220E275700815BF5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -268,7 +449,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -326,7 +508,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -341,6 +524,7 @@
 		5342AD19220E1B3400815BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -348,16 +532,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DictUtils/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.DictUtils;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DictUtils;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,6 +552,7 @@
 		5342AD1A220E1B3400815BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -373,54 +560,231 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = DictUtils/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-iOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.DictUtils;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = DictUtils;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		5342AD1C220E1B3400815BF5 /* Debug */ = {
+		5342AD3C220E24A100815BF5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = DictUtilsTests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.DictUtilsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.DictUtlis-Mac";
+				PRODUCT_NAME = DictUtils;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5342AD1D220E1B3400815BF5 /* Release */ = {
+		5342AD3D220E24A100815BF5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 77Y3N48SNF;
-				INFOPLIST_FILE = DictUtilsTests/Info.plist;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-Mac.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.DictUtlis-Mac";
+				PRODUCT_NAME = DictUtils;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		5342AD4C220E24C700815BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-TV.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.DictUtilsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.DictUtils-TV";
+				PRODUCT_NAME = DictUtils;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		5342AD4D220E24C700815BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-TV.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.DictUtils-TV";
+				PRODUCT_NAME = DictUtils;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		5342AD59220E24D300815BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-Watch.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.DictUtils-Watch";
+				PRODUCT_NAME = DictUtils;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		5342AD5A220E24D300815BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/DictUtils/Info-Watch.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cemolcay.DictUtils-Watch";
+				PRODUCT_NAME = DictUtils;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		5342AD79220E275700815BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = DictUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.DictUtilsTests;
+				PRODUCT_MODULE_NAME = DictUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		5342AD7A220E275700815BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 77Y3N48SNF;
+				INFOPLIST_FILE = DictUtilsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cemolcay.DictUtilsTests;
+				PRODUCT_MODULE_NAME = DictUtilsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
@@ -436,7 +800,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5342AD18220E1B3400815BF5 /* Build configuration list for PBXNativeTarget "DictUtils" */ = {
+		5342AD18220E1B3400815BF5 /* Build configuration list for PBXNativeTarget "DictUtils-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5342AD19220E1B3400815BF5 /* Debug */,
@@ -445,11 +809,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5342AD1B220E1B3400815BF5 /* Build configuration list for PBXNativeTarget "DictUtilsTests" */ = {
+		5342AD3B220E24A100815BF5 /* Build configuration list for PBXNativeTarget "DictUtlis-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5342AD1C220E1B3400815BF5 /* Debug */,
-				5342AD1D220E1B3400815BF5 /* Release */,
+				5342AD3C220E24A100815BF5 /* Debug */,
+				5342AD3D220E24A100815BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5342AD4B220E24C700815BF5 /* Build configuration list for PBXNativeTarget "DictUtils-TV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5342AD4C220E24C700815BF5 /* Debug */,
+				5342AD4D220E24C700815BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5342AD58220E24D300815BF5 /* Build configuration list for PBXNativeTarget "DictUtils-Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5342AD59220E24D300815BF5 /* Debug */,
+				5342AD5A220E24D300815BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5342AD78220E275700815BF5 /* Build configuration list for PBXNativeTarget "DictUtilsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5342AD79220E275700815BF5 /* Debug */,
+				5342AD7A220E275700815BF5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
