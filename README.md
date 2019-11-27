@@ -1,7 +1,7 @@
 DictUtils
 ====
 
-Adds bunch of extensions and operators that would make work with Dicitonaries easier. If you are working with JSON and don't want to use dependencies like SwiftyJSON and keep everything native, you can peacefully grab that little helper.
+Adds bunch of extensions and operators that would make work with Dictionaries easier. If you are working with JSON and don't want to use dependencies like SwiftyJSON and keep everything native, you can peacefully grab that little helper.
 
 Requirements
 ----
